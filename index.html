@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ivan Imbert</title>
+    <meta name="description" content="A hub to access all my personal and professional projects.">
+
+    <link rel="stylesheet" href="commons/common-styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <div class="nav-right">
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link" data-en="Home" data-fr="Accueil">Home</a>
+                    <a href="#personal-projects" class="nav-link" data-en="Personal Projects"
+                        data-fr="Projets Personnels">Personal Projects</a>
+                    <!-- <a href="#work-projects" class="nav-link" data-en="Work Projects"
+                        data-fr="Projets Professionnels">Work Projects</a> -->
+                </div>
+                <div class="language-switcher">
+                    <button id="language-toggle" class="btn btn-secondary">FR</button>
+                </div>
+
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Portfolio</span>
+                </h1>
+                <h2 class="hero-subtitle" data-en="A gateway to all my websites & projects"
+                    data-fr="Une passerelle vers tous mes sites Web et projets">A gateway to all my websites & projects
+                </h2>
+                <p class="hero-description"
+                    data-en="Explore my prototypes, research, and creative projects — all in one place."
+                    data-fr="Explorez mes prototypes, recherches et projets créatifs — tout en un seul endroit.">
+                    Explore my prototypes, research, and creative projects — all in one place.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#personal-projects" class="btn btn-primary" data-en="View Projects"
+                        data-fr="Voir les projets">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="personal-projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-en="My Personal Projects" data-fr="Mes Projets Personnels">My Personal
+                Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card" data-animate>
+                    <div class="project-header">
+                        <h3 data-en="Ball Balancing Robot" data-fr="Robot d'équilibre de balle">Ball Balancing Robot
+                        </h3>
+                        <div class="project-links">
+                            <a href="https://github.com/goblivend/ball-balancer" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description"
+                            data-en="A robotics prototype using computer vision and control systems."
+                            data-fr="Un prototype de robot utilisant la vision par ordinateur et les systèmes de contrôle.">
+                            A robotics prototype using computer vision and control systems.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-animate>
+                    <div class="project-header">
+                        <h3 data-en="Rubik’s Cube Solver" data-fr="Résolveur de Rubik’s Cube">Rubik’s Cube Solver</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/goblivend/sudokuSolvers" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description"
+                            data-en="Optimized C++ solver with multiple algorithmic strategies."
+                            data-fr="Résolveur C++ optimisé avec plusieurs stratégies algorithmiques.">
+                            Optimized C++ solver with multiple algorithmic strategies.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-animate>
+                    <div class="project-header">
+                        <h3 data-en="Raytracer" data-fr="Raytraceur">Raytracer</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/goblivend/rayxploring" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description"
+                            data-en="Exploring ray tracing techniques and optimizations by handling light interactions."
+                            data-fr="Exploration des techniques de ray tracing et des optimisations en gérant les interactions de la lumière.">
+                            Exploring ray tracing techniques and optimizations by handling light interactions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-animate>
+                    <div class="project-header">
+                        <h3>Advent of Code
+                        </h3>
+                        <div class="project-links">
+                            <a href="https://github.com/goblivend/Advent-of-code" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description"
+                            data-en="Advent of Code solutions in various programming languages, mainly Haskell, shell and sometimes python, will try to use some array languages such as BQN, APL or J."
+                            data-fr="Solutions d'Advent of Code dans divers langages de programmation, principalement Haskell, shell et parfois python, j'essaierai d'utiliser certains langages de tableaux tels que BQN, APL ou J.">
+                            Advent of Code solutions in various programming languages, mainly Haskell, shell and
+                            sometimes python, will try to use some array languages such as BQN, APL or J.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-animate>
+                    <div class="project-header">
+                        <h3>CoGuessr</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/goblivend/CoGuessr" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://co-guessr.vercel.app/" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description"
+                            data-en="A geographical guessing game inspired by GeoGuessr. The aim is to learn geographical coordinates."
+                            data-fr="Un jeu de devinettes géographiques inspiré de GeoGuessr. Où le but est d'apprendre les coordonnées géographiques.">
+                            A geographical guessing game inspired by GeoGuessr. The aim is to learn geographical
+                            coordinates.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="work-projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-en="My Work Projects" data-fr="Mes Projets Professionnels">My Work Projects
+            </h2>
+            <div class="projects-grid">
+
+
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ivan Imbert. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="commons/animations.js"></script>
+    <script src="commons/navigation.js"></script>
+    <script src="commons/hero-writer.js"></script>
+    <script src="commons/descriptions.js"></script>
+    <script src="commons/language-change.js"></script>
+</body>
+
+</html>
