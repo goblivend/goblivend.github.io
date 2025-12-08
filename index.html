@@ -29,6 +29,21 @@
                 <div class="language-switcher">
                     <button id="language-toggle" class="btn btn-secondary">FR</button>
                 </div>
+                <!-- Theme toggle -->
+                <div class="theme-container">
+                    <label class="theme-switch" title="Toggle dark mode">
+                        <input id="theme-toggle" type="checkbox" aria-label="Toggle dark mode">
+                        <span class="switch" aria-hidden="true">
+                            <svg class="icon sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <path
+                                    d="M6.76 4.84l-1.8-1.79L3.17 4.84l1.79 1.79 1.8-1.79zM1 13h3v-2H1v2zm10-9h2V1h-2v3zm7.03 2.05l1.79-1.79-1.79-1.79-1.79 1.79 1.79 1.79zM17.24 19.16l1.79 1.79 1.79-1.79-1.79-1.79-1.79 1.79zM21 11v2h3v-2h-3zM12 6a6 6 0 100 12 6 6 0 000-12zm0 2a4 4 0 110 8 4 4 0 010-8zM4.24 19.16l1.79 1.79 1.79-1.79-1.79-1.79-1.79 1.79z" />
+                            </svg>
+                            <svg class="icon moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <path d="M20.742 13.045A8.088 8.088 0 0111 4a8 8 0 108.742 9.045z" />
+                            </svg>
+                        </span>
+                    </label>
+                </div>
 
             </div>
             <div class="hamburger" id="hamburger">
@@ -175,7 +190,8 @@
         </div>
     </section>
 
-    <!-- <section id="work-projects" class="projects">
+    <!--
+    <section id="work-projects" class="projects">
         <div class="container">
             <h2 class="section-title" data-en="My Work Projects" data-fr="Mes Projets Professionnels">My Work Projects
             </h2>
@@ -184,7 +200,8 @@
 
             </div>
         </div>
-    </section> -->
+    </section>
+    -->
 
     <!-- Footer -->
     <footer class="footer">
@@ -199,6 +216,7 @@
     <script src="commons/hero-writer.js"></script>
     <script src="commons/descriptions.js"></script>
     <script src="commons/language-change.js"></script>
+    <script src="commons/theme-toggle.js"></script>
 </body>
 
 </html>
