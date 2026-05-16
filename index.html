@@ -101,10 +101,26 @@
                     </div>
                     <div class="project-content">
                         <p class="project-description"
-                            data-en="A robotics prototype using computer vision and control systems."
-                            data-fr="Un prototype de robot utilisant la vision par ordinateur et les systèmes de contrôle.">
-                            A robotics prototype using computer vision and control systems.
+                            data-en="A C++ robotics prototype that combines a camera-driven control loop, servo control, and balancing logic for a physical build."
+                            data-fr="Un prototype de robot en C++ qui combine une boucle de contrôle pilotée par caméra, le pilotage des servos et la logique d'équilibrage pour une construction physique.">
+                            A C++ robotics prototype that combines a camera-driven control loop, servo control, and
+                            balancing logic for a physical build.
                         </p>
+                        <p class="project-description-detailed" style="display: none;">
+                            A hardware-focused project organised into small modules: a camera input pipeline, a ball
+                            controller, PCA9685 servo driver bindings and SG90 wrappers. The repo includes 3D-print
+                            models and example control loops used to tune the balancing PID.
+                        </p>
+                    </div>
+                    <div class="project-footer">
+                        <button class="toggle-description-btn" aria-label="Toggle detailed description">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="project-tech">
+                            <span class="tag primary">C++</span>
+                            <span class="tag secondary">CMake</span>
+                            <span class="tag secondary">Embedded</span>
+                        </div>
                     </div>
                 </div>
 
@@ -119,10 +135,32 @@
                     </div>
                     <div class="project-content">
                         <p class="project-description"
-                            data-en="Optimized C++ solver with multiple algorithmic strategies."
-                            data-fr="Résolveur C++ optimisé avec plusieurs stratégies algorithmiques.">
-                            Optimized C++ solver with multiple algorithmic strategies.
+                            data-en="A multi-language Sudoku solver set with brute-force and procedural strategies, split across C++, Java, and Rust implementations."
+                            data-fr="Un ensemble de solveurs de Sudoku multi-langages avec des stratégies brute-force et procédurales, réparti entre des implémentations C++, Java et Rust.">
+                            A multi-language Sudoku solver set with brute-force and procedural strategies, split across
+                            C++, Java, and Rust implementations.
                         </p>
+                        <p class="project-description-detailed" style="display: none;">
+                            Implementations span Java, C++ and Rust to explore both algorithmic clarity and raw
+                            performance. The Java versions were used to prototype strategies and verify correctness,
+                            the C++ tree focuses on low-level optimisations and memory layout, and the Rust code
+                            includes Criterion benchmarks to compare solver variants under realistic inputs.
+                            <br><br>
+                            Across implementations the approach blends backtracking with procedural constraint
+                            propagation, reducing search space dramatically compared to naive brute-force. The
+                            repo is organised to let readers compare tradeoffs between clarity, speed and memory.
+                        </p>
+                    </div>
+                    <div class="project-footer">
+                        <button class="toggle-description-btn" aria-label="Toggle detailed description">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="project-tech">
+                            <span class="tag primary">C++</span>
+                            <span class="tag primary">Rust</span>
+                            <span class="tag secondary">Java</span>
+                            <span class="tag secondary">Benchmarks</span>
+                        </div>
                     </div>
                 </div>
 
@@ -141,10 +179,27 @@
                     </div>
                     <div class="project-content">
                         <p class="project-description"
-                            data-en="Exploring ray tracing techniques and optimizations by handling light interactions."
-                            data-fr="Exploration des techniques de ray tracing et des optimisations en gérant les interactions de la lumière.">
-                            Exploring ray tracing techniques and optimizations by handling light interactions.
+                            data-en="A Java ray-tracing sandbox focused on reflections, spheres, planes, and experimenting with the math behind light interactions."
+                            data-fr="Un bac à sable de ray tracing en Java centré sur les réflexions, les sphères, les plans et l'expérimentation autour des mathématiques de la lumière.">
+                            A Java ray-tracing sandbox focused on reflections, spheres, planes, and experimenting with
+                            the math behind light interactions.
                         </p>
+                        <p class="project-description-detailed" style="display: none;">
+                            The code explores camera-based ray casting, intersection math and recursive reflections.
+                            Scenes include combined primitives (spheres, planes) and small scene-builder helpers for
+                            composing mirror-like arrangements; the README documents profiling notes used during
+                            experimentation.
+                        </p>
+                    </div>
+                    <div class="project-footer">
+                        <button class="toggle-description-btn" aria-label="Toggle detailed description">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="project-tech">
+                            <span class="tag primary">Java</span>
+                            <span class="tag secondary">Maven</span>
+                            <span class="tag secondary">Rendering</span>
+                        </div>
                     </div>
                 </div>
 
@@ -160,11 +215,26 @@
                     </div>
                     <div class="project-content">
                         <p class="project-description"
-                            data-en="Advent of Code solutions in various programming languages, mainly Haskell, shell and sometimes python, will try to use some array languages such as BQN, APL or J."
-                            data-fr="Solutions d'Advent of Code dans divers langages de programmation, principalement Haskell, shell et parfois python, j'essaierai d'utiliser certains langages de tableaux tels que BQN, APL ou J.">
-                            Advent of Code solutions in various programming languages, mainly Haskell, shell and
-                            sometimes python, will try to use some array languages such as BQN, APL or J.
+                            data-en="A year-by-year Advent of Code archive, mostly in Haskell, with shell, Python, and occasional array-language experiments."
+                            data-fr="Une archive Advent of Code année par année, principalement en Haskell, avec du shell, du Python et quelques expérimentations avec des langages de tableaux.">
+                            A year-by-year Advent of Code archive, mostly in Haskell, with shell, Python, and occasional
+                            array-language experiments.
                         </p>
+                        <p class="project-description-detailed" style="display: none;">
+                            Solutions are organised by year with a strong Haskell focus; many entries include
+                            profiling notes, build hints and reflections on algorithmic tradeoffs. The repo is a
+                            practical record of problem-solving and optimisation experiments.
+                        </p>
+                    </div>
+                    <div class="project-footer">
+                        <button class="toggle-description-btn" aria-label="Toggle detailed description">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="project-tech">
+                            <span class="tag primary">Haskell</span>
+                            <span class="tag secondary">Bash</span>
+                            <span class="tag secondary">Profiling</span>
+                        </div>
                     </div>
                 </div>
 
@@ -185,11 +255,26 @@
                     </div>
                     <div class="project-content">
                         <p class="project-description"
-                            data-en="A geographical guessing game inspired by GeoGuessr. The aim is to learn geographical coordinates."
-                            data-fr="Un jeu de devinettes géographiques inspiré de GeoGuessr. Où le but est d'apprendre les coordonnées géographiques.">
-                            A geographical guessing game inspired by GeoGuessr. The aim is to learn geographical
-                            coordinates.
+                            data-en="A GeoGuessr-style map game built around exploring locations, guessing coordinates, and switching between light and dark basemaps."
+                            data-fr="Un jeu de cartes de type GeoGuessr basé sur l'exploration de lieux, la devinette de coordonnées et l'alternance entre fonds de carte clairs et sombres.">
+                            A GeoGuessr-style map game built around exploring locations, guessing coordinates, and
+                            switching between light and dark basemaps.
                         </p>
+                        <p class="project-description-detailed" style="display: none;">
+                            The app uses OpenLayers with theme-aware basemap layers and a compact game flow for
+                            presenting rounds, scoring and revealing the true coordinates. Difficulty presets and
+                            guess-history overlays support learning and replayability.
+                        </p>
+                    </div>
+                    <div class="project-footer">
+                        <button class="toggle-description-btn" aria-label="Toggle detailed description">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="project-tech">
+                            <span class="tag primary">JavaScript</span>
+                            <span class="tag secondary">OpenLayers</span>
+                            <span class="tag secondary">Maps</span>
+                        </div>
                     </div>
                 </div>
 
@@ -211,13 +296,28 @@
                     </div>
                     <div class="project-content">
                         <p class="project-description"
-                            data-en="Browser-based audio metadata editor that edits tags locally using the File System Access API."
-                            data-fr="Éditeur de métadonnées audio basé sur le navigateur qui édite les balises localement à l'aide de l'API File System Access.">
-                            Browser-based audio metadata editor that edits tags locally using the File System Access
-                            API.
+                            data-en="A browser-based local audio tag editor that uses the File System Access API to scan folders, edit metadata, rename files, and export playlists without a backend."
+                            data-fr="Un éditeur de balises audio local basé sur le navigateur qui utilise l'API File System Access pour parcourir des dossiers, modifier les métadonnées, renommer des fichiers et exporter des playlists sans backend.">
+                            A browser-based local audio tag editor that uses the File System Access API to scan folders,
+                            edit metadata, rename files, and export playlists without a backend.
+                        </p>
+                        <p class="project-description-detailed" style="display: none;">
+                            tagForge reads local file handles into an editable library, supports cover-art editing
+                            and filename token-based renaming. The implementation targets Chromium-based browsers due
+                            to File System Access APIs used for writes and renames.
                         </p>
                         <p class="project-ai-note" style="font-size: 0.85em; opacity: 0.8; margin-top: 0.4rem;">Made
                             completely using AI</p>
+                    </div>
+                    <div class="project-footer">
+                        <button class="toggle-description-btn" aria-label="Toggle detailed description">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="project-tech">
+                            <span class="tag primary">React</span>
+                            <span class="tag secondary">TypeScript</span>
+                            <span class="tag secondary">FileSystem API</span>
+                        </div>
                     </div>
                 </div>
 
@@ -241,12 +341,28 @@
                     </div>
                     <div class="project-content">
                         <p class="project-description"
-                            data-en="Interactive tennis-ball pattern generator with 4-way symmetry and mathematical tools."
-                            data-fr="Générateur de motifs de balles de tennis interactif avec symétrie à 4 voies et outils mathématiques.">
-                            Interactive tennis-ball pattern generator with 4-way symmetry and mathematical tools.
+                            data-en="An interactive tennis-ball template generator built around a math-driven point generator and 4-way symmetry on a custom canvas grid."
+                            data-fr="Un générateur interactif de gabarits de balle de tennis construit autour d'un générateur de points guidé par les mathématiques et d'une symétrie à 4 voies sur une grille canvas personnalisée.">
+                            An interactive tennis-ball template generator built around a math-driven point generator and
+                            4-way symmetry on a custom canvas grid.
+                        </p>
+                        <p class="project-description-detailed" style="display: none;">
+                            The core algorithm is exposed in a single module (ball-generator.js) that projects user
+                            points through 4-way symmetry and auto-scales the canvas for 1:1 rendering. It’s a concise
+                            example of placing math at the centre of a small UI tool.
                         </p>
                         <p class="project-ai-note" style="font-size: 0.85em; opacity: 0.8; margin-top: 0.4rem;">UI/UX
                             created with AI; math & logic by author</p>
+                    </div>
+                    <div class="project-footer">
+                        <button class="toggle-description-btn" aria-label="Toggle detailed description">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="project-tech">
+                            <span class="tag primary">JavaScript</span>
+                            <span class="tag secondary">Canvas</span>
+                            <span class="tag secondary">Math</span>
+                        </div>
                     </div>
                 </div>
 
@@ -268,12 +384,28 @@
                     </div>
                     <div class="project-content">
                         <p class="project-description"
-                            data-en="Convert CSV/JSON/YAML media logs into TMDB-formatted JSON, all in-browser."
-                            data-fr="Convertissez les journaux multimédias CSV/JSON/YAML en JSON au format TMDB, directement dans le navigateur.">
-                            Convert CSV/JSON/YAML media logs into TMDB-formatted JSON, all in-browser.
+                            data-en="A browser-based converter that turns CSV, JSON, and YAML media logs into TMDB-shaped JSON with title matching and repeated lookup caching."
+                            data-fr="Un convertisseur basé sur le navigateur qui transforme des journaux multimédias CSV, JSON et YAML en JSON au format TMDB avec correspondance de titres et mise en cache des recherches répétées.">
+                            A browser-based converter that turns CSV, JSON, and YAML media logs into TMDB-shaped JSON
+                            with title matching and repeated lookup caching.
+                        </p>
+                        <p class="project-description-detailed" style="display: none;">
+                            Runs entirely in the browser: uploads or pastes logs, performs TMDB lookups with local
+                            caching and prompts the user when multiple matches exist. The UX focuses on fast
+                            local conversions and export-ready JSON output.
                         </p>
                         <p class="project-ai-note" style="font-size: 0.85em; opacity: 0.8; margin-top: 0.4rem;">Built
                             with AI assistance</p>
+                    </div>
+                    <div class="project-footer">
+                        <button class="toggle-description-btn" aria-label="Toggle detailed description">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="project-tech">
+                            <span class="tag primary">React</span>
+                            <span class="tag secondary">TypeScript</span>
+                            <span class="tag secondary">TMDB</span>
+                        </div>
                     </div>
                 </div>
 
@@ -288,12 +420,28 @@
                     </div>
                     <div class="project-content">
                         <p class="project-description"
-                            data-en="Cross-platform media tracker with AI-suggested recommendations and achievement tracking."
-                            data-fr="Suivi de médias multiplateforme avec des recommandations suggérées par l'IA et un suivi des réalisations.">
-                            Cross-platform media tracker with AI-suggested recommendations and achievement tracking.
+                            data-en="A cross-platform Flutter app for tracking movies, series, and books with reminders, achievements, import/export, and recommendation features."
+                            data-fr="Une application Flutter multiplateforme pour suivre les films, séries et livres avec rappels, réalisations, import/export et fonctions de recommandation.">
+                            A cross-platform Flutter app for tracking movies, series, and books with reminders,
+                            achievements, import/export, and recommendation features.
+                        </p>
+                        <p class="project-description-detailed" style="display: none;">
+                            A mobile-first Flutter app with offline-first Isar storage, achievement tracking and
+                            release reminders. The codebase includes import/export flows, deep-linking hooks and a
+                            lightweight recommendation/quick-add system.
                         </p>
                         <p class="project-ai-note" style="font-size: 0.85em; opacity: 0.8; margin-top: 0.4rem;">Built
                             with AI assistance</p>
+                    </div>
+                    <div class="project-footer">
+                        <button class="toggle-description-btn" aria-label="Toggle detailed description">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="project-tech">
+                            <span class="tag primary">Flutter</span>
+                            <span class="tag secondary">Dart</span>
+                            <span class="tag secondary">Isar</span>
+                        </div>
                     </div>
                 </div>
 
@@ -317,7 +465,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Ivan Imbert. All rights reserved.</p>
+            <p>&copy; 2026 Ivan Imbert. All rights reserved.</p>
         </div>
     </footer>
 
